@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>send mail</title>
+</head>
+<body>
+<div>
+    <form action="mail_list" method="post">
+    {% csrf_token %}
+    <p><strong >select to send emails</strong>
+        {% for mail in emails %}
+
+        <br>
+        <input type="checkbox" class="fake" name ="mail_to_choice" value="{{mail}}">
+          {{mail}}<br>
+
+    {% endfor %} </p>
+
+<!--<-&#45;&#45;&#45;&#45; checkbox for mail template -&ndash;&gt;-->
+        <br><br>
+<p><strong> select mail template</strong></p>
+        <label for="temp">Choose template:</label>
+  <select name="temp" id="temp">
+    <option value="mail1">10% off</option>
+    <option value="mail2">cashback</option>
+    <option value="mail3">free shipping</option>
+    <option value="mail4">festive offer</option>
+    <option value="mail5">buy1get1</option>
+  </select>
+
+  <br><br>
+
+
+<input type="submit" value="send">
+</form>
+    </div>
+</body>
+</html>

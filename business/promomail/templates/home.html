@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>email templates</title>
+</head>
+<body>
+<form action = "/home" method = "post">
+{% csrf_token %}
+    <br><br>
+    <hr>
+  <label for="mail">Choose Today's Offer:</label>
+  <select name="mail" id="mail">
+    <option value="mail1">10% off</option>
+    <option value="mail2">cashback</option>
+    <option value="mail3">free shipping</option>
+    <option value="mail4">festive offer</option>
+    <option value="mail5">buy1get1</option>
+  </select>
+
+  <br><br>
+  <input type="submit" value="SEND BULK MAIL">
+<br><br><br>
+    <hr>
+
+
+    <p> SEND MAIL TO SELECTED PERSONS:</p>
+<a href="/mail_list">Click here</a>
+
+
+
+
+  <br>
+ </form>
+
+
+<br>
+<hr>
+
+</body>
+</html>

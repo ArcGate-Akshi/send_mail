@@ -6,8 +6,8 @@ from .models.message import Message
 
 # Register your models here.
 class AdminCustomer(admin.ModelAdmin):
-    list_display = ['name', 'email', 'contact', 'address', 'city', 'country']
-    search_fields = ('name', 'city')
+    list_display = ['email', 'name', 'contact', 'address', 'city', 'country']
+    search_fields = ('email', 'city')
 
 
 
@@ -18,8 +18,17 @@ class AdminMessage(admin.ModelAdmin):
     search_fields = ('m_id',)
 
 class AdminDelivery(admin.ModelAdmin):
-    list_display = ['d_id', 'status']
+    list_display = ['d_id', 'status', 'email_pk', 'message_pk']
     search_fields = ('d_id', 'status')
+    list_filter = ('status',)
+    fieldsets = (
+        (None, {
+            'fields': ('email_pk', 'message_pk')
+        }),
+        ('Edit', {
+            'fields': ('status',)
+        }),
+    )
 
 # code for registering models
 admin.site.register(Customer, AdminCustomer)

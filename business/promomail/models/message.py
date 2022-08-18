@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Message(models.Model):
-    m_id = models.BigAutoField(primary_key=True, default='00')
+    m_id = models.CharField(primary_key=True, default='mail1', blank=False, max_length=20)
     subject = models.CharField(max_length=300)
     text = models.TextField()
 
