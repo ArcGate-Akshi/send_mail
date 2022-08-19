@@ -13,8 +13,8 @@ STATUS = (
 class Delivery(models.Model):
     d_id = models.BigAutoField(primary_key=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    email_pk = models.ForeignKey(Customer, on_delete=models.CASCADE, blank=False, default='1')
-    message_pk = models.ForeignKey(Message, on_delete=models.CASCADE, default=" ")
+    email_pk = models.ForeignKey(Customer, on_delete=models.CASCADE, blank=False)
+    message_pk = models.ForeignKey(Message, on_delete=models.CASCADE)
 
     # def __str__(self):
     #     return self.status

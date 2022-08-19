@@ -135,3 +135,41 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'logincalculator@gmail.com'
 EMAIL_HOST_PASSWORD = 'ssyjporesfwrwisl'
 EMAIL_PORT = 587
+
+
+# logging
+LOGGING = {
+    'version': 1,
+    # Version of logging
+    'disable_existing_loggers': False,
+    # disable logging
+
+    # Loggers
+    'loggers': {
+        'django': {
+            'handlers': ['file1'],
+            'level': 'DEBUG'
+
+        },
+    },
+    # Handlers
+    'handlers': {
+        'file1': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'promomail/logs/mylog.log',
+            'formatter': 'simple',
+        },
+
+
+    },
+    # formatter
+    'formatters': {
+        'simple': {
+            'format': '{asctime} {levelname} {message} {module}',
+            'style': '{'
+        },
+    },
+
+
+}

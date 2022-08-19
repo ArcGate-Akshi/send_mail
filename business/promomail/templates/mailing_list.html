@@ -8,6 +8,7 @@
 <div>
     <form action="mail_list" method="post">
     {% csrf_token %}
+<!-- select users to send mail to       -->
     <p><strong >select to send emails</strong>
         {% for mail in emails %}
 
@@ -17,7 +18,7 @@
 
     {% endfor %} </p>
 
-<!--<-&#45;&#45;&#45;&#45; checkbox for mail template -&ndash;&gt;-->
+<!-- checkbox for mail template -->
         <br><br>
 <p><strong> select mail template</strong></p>
         <label for="temp">Choose template:</label>

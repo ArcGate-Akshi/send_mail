@@ -5,10 +5,16 @@
     <title>email templates</title>
 </head>
 <body>
+{% for message in messages%}
+<div class="alert-alert-{{message.tags}} alert-dismissible fade show" role="alert" style="color:green">
+	<strong>Message:</strong>{{message}}
+    {% endfor %}
+</div>
 <form action = "/home" method = "post">
 {% csrf_token %}
     <br><br>
     <hr>
+<!-- drop down for selecting mail template   -->
   <label for="mail">Choose Today's Offer:</label>
   <select name="mail" id="mail">
     <option value="mail1">10% off</option>
@@ -25,12 +31,8 @@
 
 
     <p> SEND MAIL TO SELECTED PERSONS:</p>
-<a href="/mail_list">Click here</a>
-
-
-
-
-  <br>
+    <a href="/mail_list">Click here</a>
+    <br>
  </form>
 
 

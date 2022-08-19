@@ -2,17 +2,24 @@ from django.contrib import messages
 from django.core.mail import send_mass_mail, send_mail
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.decorators.cache import cache_control
 from .models import Customer
 from .models import Message
 from .models import Delivery
 from business import settings
+import logging
+
+logger = logging.getLogger('django')
 
 
 # Create your views here.
+@cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def mail_list(request):
+    logger.info('check point at page ')
     try:
         if request.method == "POST":
             if request.POST.get('temp'):
+
                 customer_count = Customer.objects.all().count()
                 print(customer_count)
                 print('inside try')
@@ -43,7 +50,11 @@ def mail_list(request):
                     print('after')
 
                 print('end of send mail')
-                return render(request, 'done.html')
+                messages.success(
+                    request, "mails sent successfully!!!!")
+
+
+                return render(request, 'home.html')
         else:
             emails = Customer.objects.values_list('email', flat=True)
             print(emails)
@@ -51,9 +62,13 @@ def mail_list(request):
 
     except Exception as e:
         print(e)
-        return HttpResponse('except block')
+        messages.success(
+            request, "exception error!!!!")
+        return render(request, 'home.html')
+        
 
 
+@cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def home(request):
     try:
         print("+++++++++++++++++++++++++++==")
@@ -77,7 +92,9 @@ def home(request):
                 messagess = [(subject, message, from_email, [User.email]) for User in Customer.objects.all()]
                 send_mass_mail(messagess)
                 print('end of send mail')
-                return HttpResponse('sent mass mail')
+                messages.success(
+                    request, "bulk mails sent successfully!!!!")
+                return render(request, 'home.html')
 
         return render(request, 'home.html')
     except (TypeError, ValueError):

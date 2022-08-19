@@ -6,7 +6,7 @@ from .models.message import Message
 
 # Register your models here.
 class AdminCustomer(admin.ModelAdmin):
-    list_display = ['email', 'name', 'contact', 'address', 'city', 'country']
+    list_display = ['email', 'cid', 'name', 'contact', 'address', 'city', 'country']
     search_fields = ('email', 'city')
 
 

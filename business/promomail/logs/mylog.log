@@ -1,0 +1,153 @@
+2022-08-19 04:25:15,420 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:31:37,342 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 04:31:37,771 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:31:39,572 INFO "GET / HTTP/1.1" 200 894 basehttp
+2022-08-19 04:31:49,506 INFO check point at page  views
+2022-08-19 04:31:49,518 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 04:31:54,055 INFO check point at page  views
+2022-08-19 04:31:54,074 INFO "POST /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 04:32:01,278 INFO check point at page  views
+2022-08-19 04:32:01,291 INFO "POST /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 04:32:54,595 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 04:32:54,844 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:44:41,306 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 04:44:41,468 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:44:45,585 INFO "GET /admin/ HTTP/1.1" 200 8209 basehttp
+2022-08-19 04:44:45,606 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0 basehttp
+2022-08-19 04:44:45,609 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763 basehttp
+2022-08-19 04:44:45,609 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380 basehttp
+2022-08-19 04:44:45,609 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619 basehttp
+2022-08-19 04:44:46,595 INFO "GET /admin/ HTTP/1.1" 200 8209 basehttp
+2022-08-19 04:44:46,625 INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 basehttp
+2022-08-19 04:44:46,646 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 basehttp
+2022-08-19 04:44:46,648 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 basehttp
+2022-08-19 04:44:48,583 INFO "GET /admin/promomail/delivery/ HTTP/1.1" 200 10585 basehttp
+2022-08-19 04:44:48,598 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395 basehttp
+2022-08-19 04:44:48,605 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0 basehttp
+2022-08-19 04:44:48,609 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347 basehttp
+2022-08-19 04:44:48,611 INFO "GET /static/admin/js/core.js HTTP/1.1" 200 5698 basehttp
+2022-08-19 04:44:48,612 INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7872 basehttp
+2022-08-19 04:44:48,613 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919 basehttp
+2022-08-19 04:44:48,614 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902 basehttp
+2022-08-19 04:44:48,619 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:44:48,620 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0 basehttp
+2022-08-19 04:44:48,620 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531 basehttp
+2022-08-19 04:44:48,636 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0 basehttp
+2022-08-19 04:44:48,639 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0 basehttp
+2022-08-19 04:44:48,661 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331 basehttp
+2022-08-19 04:44:55,809 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11352 basehttp
+2022-08-19 04:44:55,837 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:44:59,857 INFO "GET /admin/promomail/delivery/ HTTP/1.1" 200 10585 basehttp
+2022-08-19 04:44:59,877 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:45:51,552 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11352 basehttp
+2022-08-19 04:45:51,583 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:46:25,388 INFO /home/arcgate/PycharmProjects/business/business/promomail/admin.py changed, reloading. autoreload
+2022-08-19 04:46:25,843 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:48:46,873 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:49:02,538 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:49:04,793 INFO "GET / HTTP/1.1" 200 894 basehttp
+2022-08-19 04:49:10,350 INFO "GET /admin/ HTTP/1.1" 200 8209 basehttp
+2022-08-19 04:49:12,353 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11736 basehttp
+2022-08-19 04:49:12,375 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:49:41,391 INFO "GET /admin/promomail/delivery/ HTTP/1.1" 200 10585 basehttp
+2022-08-19 04:49:41,416 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:49:50,678 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11736 basehttp
+2022-08-19 04:49:50,698 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:50:29,304 INFO /home/arcgate/PycharmProjects/business/business/promomail/models/customer.py changed, reloading. autoreload
+2022-08-19 04:50:29,657 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 04:52:05,033 INFO "GET /admin/promomail/delivery/ HTTP/1.1" 200 10585 basehttp
+2022-08-19 04:52:05,058 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:52:12,415 INFO "GET /admin/promomail/delivery/add/ HTTP/1.1" 200 10168 basehttp
+2022-08-19 04:52:12,431 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586 basehttp
+2022-08-19 04:52:12,439 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:52:12,441 INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0 basehttp
+2022-08-19 04:52:12,444 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043 basehttp
+2022-08-19 04:52:21,567 INFO "GET /admin/promomail/customer/100/change/?_to_field=cid&_popup=1 HTTP/1.1" 200 5441 basehttp
+2022-08-19 04:52:21,589 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 04:52:34,612 INFO "GET /admin/promomail/message/ HTTP/1.1" 200 9461 basehttp
+2022-08-19 04:52:34,633 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:36,754 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11736 basehttp
+2022-08-19 05:08:36,782 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:43,178 INFO "GET /admin/promomail/message/ HTTP/1.1" 200 9461 basehttp
+2022-08-19 05:08:43,199 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:46,361 INFO "GET /admin/promomail/delivery/ HTTP/1.1" 200 10585 basehttp
+2022-08-19 05:08:46,381 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:53,857 INFO "GET /admin/promomail/delivery/?status__exact=0 HTTP/1.1" 200 7592 basehttp
+2022-08-19 05:08:53,879 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:53,919 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf HTTP/1.1" 301 0 basehttp
+2022-08-19 05:08:53,928 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:08:53,987 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/change/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:08:54,010 INFO "GET /admin/ HTTP/1.1" 200 8397 basehttp
+2022-08-19 05:08:55,915 INFO "GET /admin/promomail/delivery/?status__exact=1 HTTP/1.1" 200 11135 basehttp
+2022-08-19 05:08:55,937 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:08:56,034 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf HTTP/1.1" 301 0 basehttp
+2022-08-19 05:08:56,045 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:08:56,054 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/change/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:08:56,070 INFO "GET /admin/ HTTP/1.1" 200 8397 basehttp
+2022-08-19 05:09:01,144 INFO "GET /admin/promomail/delivery/?o=3&status__exact=1 HTTP/1.1" 200 11547 basehttp
+2022-08-19 05:09:01,161 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:09:01,184 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097 basehttp
+2022-08-19 05:09:01,195 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf HTTP/1.1" 301 0 basehttp
+2022-08-19 05:09:01,207 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:01,265 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/change/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:01,289 INFO "GET /admin/ HTTP/1.1" 200 8397 basehttp
+2022-08-19 05:09:02,422 INFO "GET /admin/promomail/delivery/?o=-3&status__exact=1 HTTP/1.1" 200 11563 basehttp
+2022-08-19 05:09:02,449 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:09:02,553 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf HTTP/1.1" 301 0 basehttp
+2022-08-19 05:09:02,562 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:02,571 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/change/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:02,584 INFO "GET /admin/ HTTP/1.1" 200 8397 basehttp
+2022-08-19 05:09:17,206 INFO "POST /admin/promomail/delivery/?o=-3&status__exact=1 HTTP/1.1" 200 7109 basehttp
+2022-08-19 05:09:17,221 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 200 884 basehttp
+2022-08-19 05:09:19,373 INFO "POST /admin/promomail/delivery/?o=-3&status__exact=1 HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:19,400 INFO "GET /admin/promomail/delivery/?o=-3&status__exact=1 HTTP/1.1" 200 7203 basehttp
+2022-08-19 05:09:19,419 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:09:19,483 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436 basehttp
+2022-08-19 05:09:19,494 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf HTTP/1.1" 301 0 basehttp
+2022-08-19 05:09:19,508 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:19,523 INFO "GET /admin/promomail/delivery/Roboto-Regular.ttf/change/ HTTP/1.1" 302 0 basehttp
+2022-08-19 05:09:19,599 INFO "GET /admin/ HTTP/1.1" 200 8059 basehttp
+2022-08-19 05:09:21,980 INFO "GET /admin/promomail/delivery/add/?_changelist_filters=o%3D-3%26status__exact%3D1 HTTP/1.1" 200 10225 basehttp
+2022-08-19 05:09:22,006 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:09:29,180 INFO "GET /admin/promomail/customer/ HTTP/1.1" 200 11736 basehttp
+2022-08-19 05:09:29,211 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343 basehttp
+2022-08-19 05:10:00,951 INFO /home/arcgate/PycharmProjects/business/business/promomail/models/customer.py changed, reloading. autoreload
+2022-08-19 05:10:01,352 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 05:31:46,464 INFO /home/arcgate/PycharmProjects/business/business/promomail/models/delivery.py changed, reloading. autoreload
+2022-08-19 05:31:46,773 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 05:45:20,394 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 05:45:20,679 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:03:56,762 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:03:56,965 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:04:01,560 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:04:18,290 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:04:19,784 INFO "GET / HTTP/1.1" 200 894 basehttp
+2022-08-19 06:04:22,306 INFO check point at page  views
+2022-08-19 06:04:22,320 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 06:04:26,691 INFO check point at page  views
+2022-08-19 06:04:31,190 INFO "POST /mail_list HTTP/1.1" 200 1048 basehttp
+2022-08-19 06:04:35,333 INFO check point at page  views
+2022-08-19 06:04:39,372 INFO "POST /mail_list HTTP/1.1" 200 1048 basehttp
+2022-08-19 06:04:46,174 INFO check point at page  views
+2022-08-19 06:04:46,184 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 06:04:48,991 INFO check point at page  views
+2022-08-19 06:04:49,006 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 06:13:27,903 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:13:28,124 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:16:28,637 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:16:28,798 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:16:37,934 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:16:38,096 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:16:39,600 INFO "GET / HTTP/1.1" 200 894 basehttp
+2022-08-19 06:16:41,662 INFO check point at page  views
+2022-08-19 06:16:41,677 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 06:16:44,348 INFO check point at page  views
+2022-08-19 06:16:44,362 INFO "POST /mail_list HTTP/1.1" 200 1040 basehttp
+2022-08-19 06:16:53,318 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:16:53,492 INFO Watching for file changes with StatReloader autoreload
+2022-08-19 06:17:02,142 INFO check point at page  views
+2022-08-19 06:17:07,493 INFO "POST /mail_list HTTP/1.1" 200 1048 basehttp
+2022-08-19 06:17:11,753 INFO check point at page  views
+2022-08-19 06:17:11,761 INFO "GET /mail_list HTTP/1.1" 200 2100 basehttp
+2022-08-19 06:18:40,430 INFO /home/arcgate/PycharmProjects/business/business/promomail/views.py changed, reloading. autoreload
+2022-08-19 06:18:40,601 INFO Watching for file changes with StatReloader autoreload
